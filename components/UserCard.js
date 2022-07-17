@@ -1,10 +1,8 @@
 //card component start
-import { Card } from 'antd';
 import 'antd/dist/antd.css';
-const { Meta } = Card;
-
-
+import { Card } from 'antd';
 import { Modal } from 'antd';
+const { Meta } = Card;
 const info = (user) => {
   Modal.info({
     title: 'User detail',

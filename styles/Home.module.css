@@ -1,0 +1,31 @@
+.container {
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+
+.title {
+  cursor: pointer;
+}
+
+.main{
+  margin: 2rem 0;
+  justify-content:center;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer {
+  margin: 0 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
